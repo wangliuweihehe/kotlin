@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f308e1fc</color>
+    <color name="colorPrimaryDark">#f32ad4ea</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorLessBlack">#353434</color>
+    <color name="tabItemBg">#a0a0a0</color>
+    <color name="itembkg">#e0e0e0</color>
+</resources>

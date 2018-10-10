@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/touch_bg">
+
+    <TextView
+        android:id="@+id/cinema_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/cinema_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cinema_name"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:lineSpacingExtra="6dp" />
+
+    <TextView
+        android:id="@+id/goto_cinema"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/cinema_address"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:text="去这里"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/goto_cinema"
+        android:layout_marginTop="10dp"
+        android:background="@color/tabItemBg" />
+</RelativeLayout>
